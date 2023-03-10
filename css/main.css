@@ -1,0 +1,83 @@
+@charset 'utf-8';
+
+header{height: 167px; background-color: #fff;
+padding: 20px 0 15px; box-sizing: border-box;
+position: fixed;width: 100%; z-index: 999;
+border-bottom:1px solid #ccc ; }
+.inner{margin: 0 auto; position: relative; width: 982px;}
+.top_menu{position: absolute; top:0; right: 0;}
+.top_menu ul::after{content: ''; display: block; clear: both;}
+.top_menu li{float: left; margin-left: 10px;}
+
+header h1 a{display: block;width: 180px; height: 60px;background: url(../img/header_logo.png) no-repeat;color: transparent;font-size: 0;margin: 0 auto;}
+
+nav ul::after{content: ''; display: block; clear: both;}
+nav li{font-size: 18px;float: left; margin:30px 77.7px 0 0;}
+nav li:last-child{margin-right: 0;}
+
+.container{padding-top: 167px;}
+.slider{height: 131px;background: url(../img/rolling_1.jpg) no-repeat; padding-top: 462px; margin-bottom: 70px;position: relative;}
+.slider a{display: block; width:202px; height: 42px;
+ position: absolute; top:463px; left: 50%; transform: translateX(-50%);}
+ .slider a .over{position: absolute; top:0; left:0;
+opacity: 0; transition: all 1s;}
+.slider a:hover .over{opacity: 1;}
+
+.content{margin: 0 auto; text-align: center;width: 982px;}
+.info{margin: 20px 0 70px;}
+.info::after{content: ''; display: block; clear: both;}
+.info > div{float: left; margin-right: 20px; width: 314px;}
+.info > div:last-child{margin-right: 0;}
+.info > div a{position: relative;}
+
+.info > div a .over{opacity: 0; transition: all 1s;position: absolute; top:0;left: 0;}
+.info > div a:hover .over{opacity: 1;}
+
+.img_box{margin: 20px 0 70px;}
+.img_box::after{content: ''; display: block;clear: both;}
+.img_box > div{float: left; margin-right: 20px;width: 481px;}
+.img_box > div:last-child{margin-right: 0;}
+.img_box > div a{position: relative;}
+.img_box > div a .hover{position: absolute; top:0; left: 0;
+opacity: 0; transition: all 1s;}
+.img_box > div a:hover .hover{opacity: 1;}
+
+.cols{margin: 20px 0 70px;}
+.cols::after{content: ''; display: block; clear: both;}
+.cols > div{float: left; margin-right: 20px;width: 314px;}
+.cols >div:last-child{margin-right: 0;}
+.cols >div a{position: relative;}
+.cols >div a .over{position: absolute;top:0;left:0;opacity: 0; transition: all 1s;}
+.cols >div a:hover .over{opacity: 1;}
+
+.link{margin: 70px 0 ;}
+.link::after{content: ''; display: block; clear: both;}
+.link .link_in{float: left; margin-right: 18px; width: 482px;}
+.link .link_in:last-child{margin-right: 0;}
+.link .link_in > div{margin-top: 20px;}
+.link .link_in > div a{position: relative;}
+.link .link_in >div a .over{position: absolute; top:1px;left: 1px; opacity: 0;transition: all 1s;}
+.link .link_in >div a:hover .over{opacity: 1;}
+
+.text{width: 100%;}
+.text::after{content: ''; display: block; clear: both;}
+.text a{display: block; border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;  float: left;
+width: calc((100% - 1px) / 2); padding: 10px 0;text-align: center; }
+.text a:last-child{border-right: 0; float: right;}
+
+
+footer{background-color: #333; 
+  color: #eee; padding: 15px 0;}
+footer .address li{display: inline-block;
+margin-right: 15px;}
+footer .address{margin-bottom:8px;}
+footer .address li:last-child{margin-right: 0;}
+footer .sns{position: absolute;top:0; right: 0;}
+footer .sns::after{content: ''; display: block;
+clear: both;}
+
+footer .sns li{float: left; margin-right: 15px;}
+footer .sns li:last-child{margin-right: 0;}
+
+.top{display: block; background: url(../img/shop_icon.jpg) no-repeat;width: 70px;height: 70px;position: fixed; top:300px; right: 0;color: transparent; font-size: 0;}
